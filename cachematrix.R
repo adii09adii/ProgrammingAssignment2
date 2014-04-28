@@ -7,6 +7,7 @@
 #get matrix and its value
 #set inverse of matrix
 #get inverse of matrix
+
 makeCacheMatrix <- function(samplematrix = matrix()) {
         
         m <- NULL
@@ -31,7 +32,7 @@ makeCacheMatrix <- function(samplematrix = matrix()) {
 }
 
 
-## cacheSolve describing this function
+## cacheSolve describing this function:
 ##This function computes the inverse of the special "matrix" 
 ##returned by makeCacheMatrix above. 
 ##If the inverse has already been calculated (and the matrix has not changed), 
